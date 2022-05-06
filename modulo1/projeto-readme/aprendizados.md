@@ -1,0 +1,2 @@
+# Aprendizados da semana
+A Aula foi estremamente satisfatoria, apesar de eu não ter entendido nada, mas pude perceber que os instrutores explicam super bem, eu que nunca vi algo desse tipo, talvez por isso esteja tendo mais **dificuldades** que os demais alunos.
