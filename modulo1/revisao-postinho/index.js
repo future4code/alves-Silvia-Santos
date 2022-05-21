@@ -5,27 +5,27 @@
 // a-)Comparador de desigualdade a!==b 
 // Exemplo:
 
-function checarDesigualdade(a, b) {
+//function checarDesigualdade(a, b) {
 
-    return `No comparador de desigualdade ${a}!==${b} é ${a !== b}`
-}
-console.log(checarDesigualdade(1, 3));
+  //  return `No comparador de desigualdade ${a}!==${b} é ${a !== b}`
+//}
+//console.log(checarDesigualdade(1, 3));
  
 
 // b-)Compare a igualdade entre a===b
 
-function checarIgualdade(a, b) {
-    return `No comparador de igualdade ${a} === ${b} é ${a === b}`
-}
+//function checarIgualdade(a, b) {
+  //  return `No comparador de igualdade ${a} === ${b} é ${a === b}`
+//}
 
- console.log(checarIgualdade(2, 2))
+ //console.log(checarIgualdade(2, 2))
  
 // c-)Faça uma função chamada "verificaSeEMaior"
-function verificaSeEMaior(a, b) {
-       return  a > b    
-}
+//function verificaSeEMaior(a, b) {
+  //     return  a > b    
+//}
 
-console.log(verificaSeEMaior(321, 2156));
+//console.log(verificaSeEMaior(321, 2156));
 
 
 // Exercício 2------------------------------------------------------------------------------------
@@ -42,14 +42,14 @@ console.log(verificaSeEMaior(321, 2156));
 
 // Exercício 3------------------------------------------------------------------------------------
  
-const nomeUser = prompt('Nome do Usuario')
+/*const nomeUser = prompt('Nome do Usuario')
 const anoNasc = Number(prompt('Ano de nascimento'))
-const nacionalidade = prompt('Nacionalidade')
-const senhaUser = prompt('Senha do usuario')
+const nacionalidade = prompt('Nacionalidade')*/
+//const senhaUser = prompt('Senha do usuario')
 
 
 
- const cadastro = (nome, ano, senha, nacionalidade) => {
+ /*const cadastro = (nome, ano, senha, nacionalidade) => {
      const usuario = []
      let maiorIdade = 2022 - ano
      if(maiorIdade >= 18 &&(senha.length >=6) && nacionalidade === "Brasileiro(a)") {
@@ -57,58 +57,99 @@ const senhaUser = prompt('Senha do usuario')
     } 
          return usuario
     }
-       console.log(cadastro(nomeUser, anoNasc, senhaUser, nacionalidade)) 
+       console.log(cadastro(nomeUser, anoNasc, senhaUser, nacionalidade)) */
 
 
 
 
 
 
+ //Exercício 4-----------------------------------------------------------------------------------------------
+/* Escreva uma função que peça uma senha para o usuário e verifique se está é a mesma senha 
+cadastrada por ele.  Dentro da função defina uma senha válida  Ex: const senha=”labenu”
 
-// Exercício 4-----------------------------------------------------------------------------------------------
+- Caso a senha seja válida imprima no console a mensagem (Usuário Logado)
+- Caso a senha seja inválida imprima no console (Senha Inválida)*/
 
-//const login = () => {
-   // const login = "labenu"
-    //  Sua lógica aqui
+ //let senhaLogin = prompt("Senha User")
 
-//}
+//const login = (senha) => {
+  //  const login = "Labenu"
+    //if (login === senhaLogin){
+      //  return "Usuário Logado"
 
-//console.log(login());
+    //}else{
+      //  return "Senha Inválida"
+    //}
+  //}
+
+    //console.log(login(senhaLogin));
 
 // Exercício 5----------------------------------------------------------------------------------------------------
-//const nomeUser = prompt("Nome usuario")
-/*const nomeVacina = prompt("Nome da vacina")
-const nomeVacina1 = prompt("Nome vacina1")
-const nomeVacina2 = prompt("Nome vacina2")
-let tempo = Number(prompt("Tempo vacina"))
-let tempo1 = Number(prompt("Tempo vacina1"))
-let tempo2= Number(prompt("Tempo vacina2"))
-const primeiraDose = () => {
+/*Escreva uma função que receba do usuário seu nome, e o nome da vacina que tomou. 
+E retorne a mensagens a seguir dependendo da vacina tomada. 
+`Olá ${nome}! A próxima dose da ${vacina} é daqui a ${tempo} dias. Compareça no posto na data ${data}.`*/  
+
+ //const nome = prompt("Nome usuario")
+ //const vacinaCorona = prompt("Nome da vacina")
+//const vacinaAstra = prompt("Vacina 2")
+//const vacinaPfizer = prompt("Vacina 3 ")
+//let tempo1 = Number(prompt("Tempo vacina"))
+//let tempoAstra = Number(prompt("Tempo vacina 2"))
+//let tempoPfizer = Number(prompt("tempo vacina 3"))
+//let dataTomouVacina = "21/05/2022"
+//let data1 = "18/06/2022"
+//console.log(`Olá ${nome}! A próxima dose da ${vacinaCorona} é daqui a ${tempo1} dias. Compareça no posto na data ${data1}.`)
+
+//const primeiraDose = ( ) 
+//let tempo = '90'
+//let data = "21/08/2022"
 
 
-    //  Sua lógica aqui
+/*Sabendo que as vacinas tem tempos diferentes  para a aplicação da segunda dose crie uma única 
+variável ‘tempo” que mude seu valor dependendo da vacina informada pelo usuário, faça o mesmo com
+ “data”.
 
-
-}
-console.log(primeiraDose())
-
+- Coronavac = 28 dias
+- Astrazenica = 90 dias
+- Pfizer = 90 dias*/
 
 // LOOP+CONDICIONAL
 
 // Exercício 6 -------------------------------------------------------------------------------------
+/*- Exercício 6 - Loop+Condicional -**Segunda dose**
+    
+    Escreva uma função para validar a segunda dose de um usuário, que receba o nomeDoUsuário e
+     mude o valor da propriedade `imunização` para **“completa”** para isso vamos te fornecer uma
+      lista de usuários.*/
 
-const segundaDose = (nomeDoUsuario) => {
-    const usuarios = [
-        { nome: "Artur", imunizacao: "incompleta" },
-        { nome: "Barbara", imunizacao: "incompleta" },
-        { nome: "Carlos", imunizacao: "incompleta" }
-    ]
+         //const nomeDoUsuario = prompt("Barbara")
 
-    //  Sua lógica aqui
+     //const segundaDose = (nomeDoUsuario) => {
+       // const usuarios = [
+        //{ nome: "Artur", imunizacao: "incompleta" },
+        //{ nome: "Barbara", imunizacao: "incompleta" },
+        //{ nome: "Carlos", imunizacao: "incompleta" }
+        
+        //]
+    //}
+         
+      //     nomeDoUsuario.filter((imunizacao) =>{
+            //return usuarios.nome.imunizacao.replaceAll("incompleta", "completa") === "Barbara"
+         
+         //})
+        
+           // console.log(segundaDose(nomeDoUsuario))
+         //nomeDoUsuario = usuarios.filter((usuarios) => {
+        //usuarios.nome === "Barbara"
+//.map((usuarios) =>{
+   // usuarios.imunizacao.replaceALL("incompleto", "completo")
+    //console.log(segundaDose("Barbara"))
 
 
-}
-console.log(segundaDose("Barbara"));
+    
+   
+
 
 // Exercício 7 --------------------------------------------------------------------------------------
 
@@ -127,7 +168,7 @@ console.log(avisoAosAtrasados());
 
 // DESAFIO------------------------------------------------------------------------------------------
 
-const usuarios = [
+/*const usuarios = [
     {
         nome: "Artur",
         ano: 2000,
