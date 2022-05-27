@@ -1,0 +1,34 @@
+/* Primeira página */
+
+.strong{
+    background-color: brown;
+    color: black;
+}
+
+.strong2{
+    background-color: brown;
+    color: black;
+}
+
+.head-Fundo{
+    background-color: coral;
+        
+}
+
+#nome:active{
+    background-color:indianred;
+    color:darkslategray ;
+    
+}
+ 
+#nome{
+    text-align:center;
+}
+
+.img{
+    text-align:center;
+ }
+
+.li-historico {
+    position: inherit;
+}
