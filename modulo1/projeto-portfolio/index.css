@@ -1,8 +1,8 @@
-/* Primeira página */
+/* Página Inicial */
 
 .strong{
     background-color: brown;
-    color: black;
+    color:black;
 }
 
 .strong2{
@@ -11,19 +11,21 @@
 }
 
 .head-Fundo{
-    background-color: coral;
+    background-color:black;
         
 }
 
-#nome:active{
-    background-color:indianred;
+.nome:active{
+    background-color:azure;
     color:darkslategray ;
     
 }
- 
-#nome{
-    text-align:center;
+
+.nome{
+    color: chocolate;
 }
+ 
+
 
 .img{
     text-align:center;
@@ -31,4 +33,43 @@
 
 .li-historico {
     position: inherit;
+}
+
+.li-historico{
+    color: whitesmoke;
+}
+
+.h33{
+    color: whitesmoke;
+}
+
+.p-p{
+    color: whitesmoke;
+}
+
+.h34{
+    color: whitesmoke;
+}
+
+.li-historico2{
+    color: whitesmoke;
+}
+.p-p1{
+    color: whitesmoke;
+}
+
+.li-3{
+    color: whitesmoke;
+}
+
+.cor-link{
+    color: white;
+}
+
+
+/* ########Portfolio####### */
+
+.action{
+background-color: darkblue;   
+color: black; 
 }
