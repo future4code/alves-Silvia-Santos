@@ -5,6 +5,15 @@
     color:black;
 }
 
+.h11{
+    color: beige;
+    text-align: center;
+    font-size:xx-large;
+}
+
+.imgm{
+    text-align:center;
+}
 .strong2{
     background-color: brown;
     color: black;
@@ -25,7 +34,9 @@
     color: chocolate;
 }
  
-
+.imgcentralizada{
+text-align: center;
+}
 
 .img{
     text-align:center;
@@ -73,3 +84,21 @@
 background-color: darkblue;   
 color: black; 
 }
+.exp{
+    color: white;
+}
+
+
+/* #####PROJETO VSCODE#### */
+
+.textoreadme:active{
+    background-color:azure;
+    color:brown;
+}
+
+.textoreadme{ 
+    color: white;
+}
+
+
+/* ###########Projeto Javascript########### */
