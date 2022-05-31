@@ -1,0 +1,63 @@
+header{
+    background-color: mediumvioletred;
+    padding: 15px;
+
+    }
+
+    header{
+    display: flex;
+    
+   
+    
+}
+
+header{
+    justify-content:space-between;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.section1 > img{
+    flex-direction: row;
+    
+}
+
+button{
+    padding: 3px  5px 0px 5px;
+    border:black;
+    
+}
+
+button{
+    flex-grow: row;
+}
+
+body{display: flex;
+    background-color: #f2d0e0;
+    flex-direction: column;
+    height: 100vh;
+    
+    
+}
+
+.bolo1 > p > p > p > p > p > p > p{
+    align-items: flex-start;
+    /* flex-direction:row-reverse; */
+    width: 0;
+}
+
+.bolo1 > p > p > p > p > p > p > p{
+   display:flex;
+   align-items: flex-start;
+}
+
+footer{
+    background-color: mediumvioletred;
+    padding: 20px;
+    margin-top: 1000px;
+    text-align: center;   
+}
