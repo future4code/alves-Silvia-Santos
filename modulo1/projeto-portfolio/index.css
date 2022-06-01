@@ -1,0 +1,104 @@
+/* Página Inicial */
+
+.strong{
+    background-color: brown;
+    color:black;
+}
+
+.h11{
+    color: beige;
+    text-align: center;
+    font-size:xx-large;
+}
+
+.imgm{
+    text-align:center;
+}
+.strong2{
+    background-color: brown;
+    color: black;
+}
+
+.head-Fundo{
+    background-color:black;
+        
+}
+
+.nome:active{
+    background-color:azure;
+    color:darkslategray ;
+    
+}
+
+.nome{
+    color: chocolate;
+}
+ 
+.imgcentralizada{
+text-align: center;
+}
+
+.img{
+    text-align:center;
+ }
+
+.li-historico {
+    position: inherit;
+}
+
+.li-historico{
+    color: whitesmoke;
+}
+
+.h33{
+    color: whitesmoke;
+}
+
+.p-p{
+    color: whitesmoke;
+}
+
+.h34{
+    color: whitesmoke;
+}
+
+.li-historico2{
+    color: whitesmoke;
+}
+.p-p1{
+    color: whitesmoke;
+}
+
+.li-3{
+    color: whitesmoke;
+}
+
+.cor-link{
+    color: white;
+}
+
+
+/* ########Portfolio####### */
+
+.action{
+background-color: darkblue;   
+color: black; 
+}
+.exp{
+    color: white;
+}
+
+
+/* #####PROJETO VSCODE#### */
+
+.textoreadme:active{
+    background-color:azure;
+    color:brown;
+}
+
+.textoreadme{ 
+    color: white;
+}
+
+
+/* ###########Projeto Javascript########### */
